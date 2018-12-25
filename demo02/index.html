@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>闪修侠_苹果手机上门维修-国内独创o2o手机上门快修平台</title>
+    <link rel="shortcut icon" href="http://best.shanxiuxia.com/favicon.ico" type="image/x-icon">
+    <meta name="baidu-site-verification" content="xmmIzLCpL6" />
+    <meta name="Description" content="闪修侠是国内最大的手机上门维修平台，也是业内首家获得B轮融资的手机上门维修品牌，累计服务数百万用户。在北上广深杭等数十个城市，为用户提供手机，笔记本与智能硬件的一键预约上门维修服务。 " />
+    <meta name="Keywords" content="手机维修,手机上门维修,苹果手机维修,iPhone上门维修,闪修侠" />
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./swiper.min.css">
+    <style>
+        .top {
+            width: 80px;
+            height: 88px;
+            position: fixed;
+            background-color: #EE7700;
+            bottom: 45%;
+            right: 0;
+            font-size: 12px;
+            text-align: center;
+            z-index: 9999;
+            cursor: pointer;
+        }
+        
+        .top div {
+            width: 46%;
+            margin: 11px auto;
+            /* margin-top: 22%; */
+        }
+        
+        .top div img {
+            width: 100%;
+        }
+        
+        .top span {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="btl">
+            <div class="btleft">
+                <span>
+                        <img class="shanxiu" src="./img/shanxiu.png" alt="">
+                </span>
+                <span style="font-size: 12px;margin: auto 10px;">|</span>
+                <span>手机快修专家</span>
+            </div>
+            <div class="btmid">
+                <ul>
+                    <li><a href="#">首页</a> </li>
+                    <li> <a href="#">维修报价</a></li>
+                    <li><a href="#">预约下单</a></li>
+                    <li><a href="#">热门活动</a></li>
+                    <li><a href="#">常见问题</a></li>
+                </ul>
+            </div>
+            <div class="btright">
+                <span>预约电话：400-010-5678</span>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-container1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="page" src="https://sxxdispark.oss-cn-hangzhou.aliyuncs.com/upload/20180921/9899f7b0e795d6f84d2ac60a24da968e.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="page" src="https://sxxdispark.oss-cn-hangzhou.aliyuncs.com/upload/20180921/bf455817732cfc0e0e2d652d2e23ea7e.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="page" src="https://sxxdispark.oss-cn-hangzhou.aliyuncs.com/upload/20180921/a4ae3c51aafb6dd26a313ecba1d97999.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="page" src="https://sxxdispark.oss-cn-hangzhou.aliyuncs.com/upload/20180921/aa69f74351c87365d9692e9978422d66.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="page" src="https://sxxdispark.oss-cn-hangzhou.aliyuncs.com/upload/20180921/4a746a9c0c018dec5ad48e289b2f28f7.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="page" src="https://sxxdispark.oss-cn-hangzhou.aliyuncs.com/upload/20180921/b7849ff1bfdeea04aa0459bff6426698.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="user">
+        <div class="userBox">
+            <p id="countNum" class="counter">
+                <span class="hidden">天生骄傲</span>
+                <span class="timer count-title" id="count-number" data-to="17870" data-speed="1500"></span>
+                <span class="hidden">用户的选择和认可</span>
+            </p>
+        </div>
+    </div>
+    <div class="superiority clearfix">
+        <li class="superior-list">
+            <img src="./img/in-door.svg" alt="">
+            <p class="superior-text">免费上门</p>
+        </li>
+        <li class="superior-list">
+            <img src="./img/engineer.svg" alt="">
+            <p class="superior-text">专业工程师</p>
+        </li>
+        <li class="superior-list">
+            <img src="./img/baoxiu.svg" alt="">
+            <p class="superior-text">半年保修</p>
+        </li>
+        <li class="superior-list">
+            <img src="./img/pinzhi.svg" alt="">
+            <p class="superior-text">品质配件</p>
+        </li>
+        <li class="superior-list">
+            <img src="./img/luxiang.svg" alt="">
+            <p class="superior-text">全程录像</p>
+        </li>
+    </div>
+
+    <div class="mal-wrap">
+        <ul class="brand-ul" id="brandUl">
+            <li class="cur">苹果</li>
+            <li>三星</li>
+            <li>小米</li>
+            <li>华为</li>
+            <li>魅族</li>
+            <li>OPPO</li>
+            <li>vivo</li>
+        </ul>
+        <div class="mal-box">
+            <ul class="phone-ul" id="phoneUl">
+                <li class="cur">iPhone 7 Plus</li>
+                <li>iPhone 7</li>
+                <li> iPhone X</li>
+                <li> iPhone 5s</li>
+                <li>iPhone 8 Plus</li>
+                <li>iPhone SE</li>
+                <li>iPhone 8</li>
+                <li>iPhone 5</li>
+                <li>iPhone XS Max</li>
+                <li>iPhone 5c</li>
+                <li> iPhone XS</li>
+                <li>iPhone XR</li>
+            </ul>
+            <div class="mal-ul-wrap">
+                <div id="malUlCon">
+                    <ul class="mal-ul">
+                        <li>
+                            <div class="mal-name">外屏碎（显示正常）</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥199</p>
+                                <p class="price-market">￥343</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">内屏显示异常</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥329</p>
+                                <p class="price-market">￥672</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">充电</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥333</p>
+                                <p class="price-market">￥666</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">电池</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥222</p>
+                                <p class="price-market">￥444</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">升级为32G</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥111</p>
+                                <p class="price-market">￥211</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">升级为128G</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥331</p>
+                                <p class="price-market">￥551</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">升级为256G</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥321</p>
+                                <p class="price-market">￥432</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                    </ul>
+                    <ul class="mal-ul">
+                        <li>
+                            <div class="mal-name">外屏碎（显示正常）</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥199</p>
+                                <p class="price-market">￥343</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">内屏显示异常</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥329</p>
+                                <p class="price-market">￥672</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">充电</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥333</p>
+                                <p class="price-market">￥666</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">电池</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥222</p>
+                                <p class="price-market">￥444</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">升级为32G</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥111</p>
+                                <p class="price-market">￥211</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                        <li>
+                            <div class="mal-name">升级为128G</div>
+                            <div class="price-wrap">
+                                <p class="price-reference">￥331</p>
+                                <p class="price-market">￥551</p>
+                            </div>
+                            <button>立即下单</button>
+                        </li>
+                    </ul>
+                </div>
+                <a class="more-mal">查看更多故障报价>>></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="littleBanner" id="littleBanner">
+        <div class="lBannerBox">
+            <div class="swiper-container2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="javascript:;" class="item bg swiper-slide">
+                            <div class="title">
+                                <img src="./img/iphone.svg" alt="" class="icon icon-iphone">
+                                <p>iPhone内存升级</p>
+                            </div>
+                            <p class="price">
+                                ￥<span>179</span> 起
+                            </p>
+                            <img src="./img/arrow.png" alt="" class="bannerarrow">
+                            <img src="./img/add-neicun.png" alt="" class="add-img">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="javascript:;" class="item bg2 swiper-slide">
+                            <div class="title">
+                                <img src="./img/iphone.svg" alt="" class="icon icon-iphone">
+                                <p>iPhone电池更换</p>
+                            </div>
+                            <p class="price">
+                                ￥<span>120</span> 起
+                            </p>
+                            <img src="./img/arrow.png" alt="" class="bannerarrow">
+                            <img src="./img/add-dianchi.png" alt="" class="add-img">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="javascript:;" class="item bg3 swiper-slide">
+                            <div class="title">
+                                <img src="./img/iphone.svg" alt="" class="icon icon-iphone">
+                                <p>iPhone屏幕更换</p>
+                            </div>
+                            <p class="price">
+                                ￥<span>149</span> 起
+                            </p>
+                            <img src="./img/arrow.png" alt="" class="bannerarrow">
+                            <img src="./img/add-pingmu.png" alt="" class="add-img">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="javascript:;" class="item bg4 swiper-slide">
+                            <div class="title">
+                                <img src="./img/iphone.svg" alt="" class="icon icon-iphone">
+                                <p>MacBook系列维修</p>
+                            </div>
+                            <p class="price">
+                                ￥<span>98</span> 起
+                            </p>
+                            <img src="./img/arrow.png" alt="" class="bannerarrow">
+                            <img src="./img/add-mac.png" alt="" class="add-img">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="javascript:;" class="item bg5 swiper-slide">
+                            <div class="title">
+                                <img src="./img/uva.svg" alt="" class="icon icon-iphone">
+                                <p>无人机维修</p>
+                            </div>
+                            <p class="price">
+                                ￥<span>38</span> 起
+                            </p>
+                            <img src="./img/arrow.png" alt="" class="bannerarrow">
+                            <img src="./img/add-uav.png" alt="" class="add-img">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="javascript:;" class="item bg6 swiper-slide">
+                            <div class="title">
+                                <img src="./img/xiaomi.svg" alt="" class="icon icon-iphone">
+                                <p>小米手机维修</p>
+                            </div>
+                            <p class="price">
+                                ￥<span>60</span> 起
+                            </p>
+                            <img src="./img/arrow.png" alt="" class="bannerarrow">
+                            <img src="./img/add-xiaomi.png" alt="" class="add-img">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="javascript:;" class="item bg7 swiper-slide">
+                            <div class="title">
+                                <img src="./img/huawei.svg" alt="" class="icon icon-iphone">
+                                <p>华为手机维修</p>
+                            </div>
+                            <p class="price">
+                                ￥<span>99</span> 起
+                            </p>
+                            <img src="./img/arrow.png" alt="" class="bannerarrow">
+                            <img src="./img/add-huawei.png" alt="" class="add-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-prev">
+                    <!-- <img src="./img/left.png" alt=""> -->
+                </div>
+                <div class="swiper-button-next">
+                    <!-- <img src="./img/right.png" alt=""> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="service-wrap">
+        <div class="service-think">
+            <img class="think-page" src="http://best.shanxiuxia.com/images/index/service-think.png" alt="">
+            <p class="tit">我们认为，优质的服务</p>
+            <p>必须兼顾方方面面</p>
+        </div>
+
+        <ul class="service-ul">
+            <li>
+                <img src="./img/service-li-1.png" alt="">
+                <div class="service-tit">
+                    <p class="tit">快速上门</p>
+                    <p>极速响应，免费上门，平均20分钟维修时长</p>
+                </div>
+
+            </li>
+            <li>
+                <img src="./img/service-li-2.png" alt="">
+                <div class="service-tit">
+                    <p class="tit">专业工程师</p>
+                    <p>技术精湛，层层考核，高标准的专业维修团队</p>
+                </div>
+
+            </li>
+            <li>
+                <img src="./img/service-li-3.png" alt="">
+                <div class="service-tit">
+                    <p class="tit">高品质配件</p>
+                    <p>30道检测工艺，一件一码独立标识</p>
+                </div>
+
+            </li>
+            <li>
+                <img src="./img/service-li-4.png" alt="">
+                <div class="service-tit">
+                    <p class="tit">透明报价</p>
+                    <p>价格公开透明，满意再付款。无任何隐形消费</p>
+                </div>
+
+            </li>
+            <li>
+                <img src="./img/service-li-5.png" alt="">
+                <div class="service-tit">
+                    <p class="tit">全程录像</p>
+                    <p> 当面维修，拒绝偷梁换柱，给您看得见的放心</p>
+                </div>
+
+            </li>
+            <li>
+                <img src="./img/service-li-6.png" alt="">
+                <div class="service-tit">
+                    <p class="tit">全国联保</p>
+                    <p>同一故障点180天全国联保，免费上门维修</p>
+                </div>
+
+            </li>
+        </ul>
+
+
+
+        <div class="service-quality">
+            <img src="http://best.shanxiuxia.com/images/index/service-quality.png" alt="">
+            <p class="tit">官方直营 品质如一</p>
+            <p>纯直营，高品质，牢牢把握维修的每一个细节</p>
+        </div>
+    </div>
+    <div class="f-name">我要预约</div>
+    <div id="demo1" class="form">
+        <div class="listbox">
+            <!--机型-->
+            <div class="modelbox">
+                <p class="mode-name">机型选择</p>
+                <div class="model-info">
+                    <div class="phone_choice newBox">
+                        <div class="phone_text new_text">请选择机型</div>
+                        <i class="err-msg">请选择机型</i>
+                        <div class="phone_choice_box clearfix">
+                            <div class="brand_box_box">
+                                <ul class="brand_box"></ul>
+                            </div>
+                            <div class="phone_box_box">
+                                <ul class="phone_box"></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="model-info">
+                    <div class="mal_choice">
+                        <div class="mal_text new_text">请选择故障</div>
+                        <i class="err-msg">请选择故障</i>
+                        <div class="mal_choice_box clearfix">
+                            <div class="classify_box_box">
+                                <ul class="classify_box"></ul>
+                            </div>
+                            <div class="mal_box_box">
+                                <ul class="mal_box"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--颜色-->
+            <div class="color_box modelbox clearfix">
+                <p class="mode-name">颜色选择</p>
+                <div class="model-info">
+                    <div class="inputbox" id="colorbox">
+                        <select id="colorSelect">
+                            <option value="">请选择颜色</option>
+                        </select>
+                        <i class="err-msg">请选择颜色</i>
+                    </div>
+                </div>
+            </div>
+            <!--维修方式-->
+            <div class="modelbox clearfix">
+                <p class="mode-name">维修方式</p>
+                <div class="model-info">
+                    <div class="inputbox">
+                        <select id="way">
+                        <option value="1">上门维修</option>
+                        <option value="2">邮寄维修</option>
+                        <option value="3">到店维修</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
+            <!--预留信息-->
+            <div class="modelbox">
+                <p class="mode-name">预留信息</p>
+                <div class="model-info">
+                    <div class="namebox name_box">
+                        <input id="userName" type="text" placeholder="姓名(必填)"><br>
+                        <!-- <span id="nametips">用户姓名(2~16中／英文,不允许空格)</span> -->
+                        <i class="err-msg">用户姓名(2~16中／英文,不允许空格)</i>
+                    </div>
+                    <div class="namebox phone_num">
+                        <input id="phoneNum" type="text" placeholder="电话号码(必填)" maxlength="11"><br>
+                        <!-- <span id="phonetips">请输入手机号码</span> -->
+                        <i class="err-msg">请输入正确格式的手机号码</i>
+                    </div>
+                    <!--<div class="inputbox vcode">
+                                <input id="vCode" class="codeinput" type="text">
+                                <button id="enterCode" type="submit" class="codebtn">发送验证码</button>
+                                <span id="codetips">请输入正确验证码</span>
+                            </div>-->
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--地址-->
+            <div class="modelbox return clearfix">
+                <p class="mode-name mode-name2">您的地址</p>
+
+                <div class="address_main">
+                    <div class="address_text">请选择省\市\区</div>
+                    <div class="address_box">
+                        <div id="alladress">
+                            <div class="province_box">
+                                <div class="province">
+
+                                </div>
+                            </div>
+                            <div class="city_box">
+                                <div class="city">
+
+                                </div>
+                            </div>
+                            <div class="area_box">
+                                <div class="area">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="homeadress">
+                            <div class="province_box">
+                                <div class="provinceOne">
+
+                                </div>
+                            </div>
+                            <div class="city_box">
+                                <div class="cityOne">
+
+                                </div>
+                            </div>
+                            <div class="area_box">
+                                <div class="areaOne">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="street-wrap">
+                    <input id="Street" maxlength="50" minlength="6" class="street" type="text" placeholder="输入具体街道地址(必填)">
+                    <br>
+                    <i class="err-msg">请填写街道地址</i>
+                </div>
+                <!-- <div class="inputbox allprovince">
+                        <select id="province"  name="province" data-province="浙江省"></select>
+                    </div>
+                    <div class="inputbox">
+                        <select id="city">
+                        </select>
+                    </div>
+                    <div class="inputbox clean">
+                        <select id="area">
+                        </select>
+                    </div> -->
+                <div class="clear"></div>
+
+                <!-- <div id="homeadress" class="model-info">
+                    <div class="inputbox allprovince">
+                        <select id="provinceOne" name="province"></select>
+                    </div>
+                    <div class="inputbox">
+                        <select id="cityOne">
+                        </select>
+                    </div>
+                    <div class="inputbox clean">
+                        <select id="areaOne">
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                </div> -->
+                <div class="xiaomi">闪修侠已开通12城（北京/上海/杭州/深圳/南京/武汉/成都/合肥/无锡/厦门/郑州/长沙）的小米官方售后维修，请至小米官网下单。</div>
+                <div class="clear"></div>
+
+            </div>
+            <!--备注-->
+            <div class="modelbox lg clearfix">
+                <p class="mode-name">备注信息</p>
+                <div class="model-info">
+                    <input id="message" class="message" type="text" placeholder="备注">
+                </div>
+            </div>
+            <!--提交订单-->
+            <div class="submit_box clearfix">
+                <div class="term">
+                    <div class="price_box">￥
+                        <span class="price_text"></span>
+                    </div>
+                    <div id="myModalbtn" class="clearfix">
+                        <input id="checkbox" type="checkbox" checked="checked">
+                        <p class="xieyi_box">
+                            <span>提交订单即同意 </span>
+                            <span id="xieyi">维修服务协议</span>
+                        </p>
+                    </div>
+                </div>
+                <button id="fixSubmit" class="submitbtn" type="submit">提交订单</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div id="question" class="question">
+        <div class="questionbox">
+            <p class="quall">您可能会关心的问题</p>
+            <div class="qulist">
+                <div class="qulist1">
+                    <p>哪些城市支持上门服务？</p>
+                    <span>闪修侠目前已进驻北京市、上海市、杭州市、宁波市、广州市、深圳市、成都市、苏州市、南京市、无锡市、武汉市、重庆市、郑州市、厦门市、福州市、西安市、天津市、合肥市、长沙市、青岛市、济南市、沈阳市、大连市、南昌市、贵阳市、南宁市、石家庄市、昆明市 28城，可提供上门快修服务。</span>
+                </div>
+                <div class="qulist1">
+                    <p>不支持上门的城市怎么办？</p>
+                    <span>未覆盖上门维修城市用户可以选择寄修服务，将需要维修的设备邮寄到最近的维修中心，闪修侠负责双向顺丰邮寄费用，详情可咨询客服。</span>
+                </div>
+                <div class="qulist1">
+                    <p>下单后的服务流程是怎样的?</p>
+                    <span>请保持电话畅通，闪修侠工程师/客服会尽快联系您，确认设备故障及上门时间地点，工程师会在约定的时间内上门维修，维修完成后用户在线支付。</span>
+                </div>
+                <div class="qulist1">
+                    <p>外屏碎和内外屏都碎怎么区分？</p>
+                    <span>如果屏幕碎了，但图像可以正常显示，就只是外屏碎。如果图片显示不正常或者完全无法显示，则内屏也碎了。</span>
+                </div>
+                <div class="qulist1">
+                    <p> 更换的配件是保修时长多久？</p>
+                    <span> 更换的配件保修期一般为180天（内存升级及软件升级服务除外）</span>
+                </div>
+                <div class="qulist1">
+                    <p>新电池更换后出现不耐用的情况是怎么回事？</p>
+                    <span>电池出厂都不是满电，一般情况下会有虚电。新电池刚使用，因为电芯未完全被激活，导致电量不稳定不耐用等情况，属于正常现象，首次充电6-8小时为宜，以后每次充电只充4-6小时即可。</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="banquan">
+        杭州维时科技有限公司 浙ICP备15007035号-2
+    </div>
+    <div id="toTop" onclick="topFunction()">
+        <div class="top">
+            <div class="topp">
+                <img class="top-img" src="./img/top.png" alt="">
+            </div>
+            <span>返回顶部</span>
+        </div>
+    </div>
+
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./index.js"></script>
+    <script src="./swiper.min.js"></script>
+    <script>
+        $(function() {
+            var swiper = new Swiper('.swiper-container1', {
+                // autoplay:{
+
+                // },
+                direction: 'horizontal',
+                loop: true,
+                autoplay: true,
+                // speed: 3000,
+                disableOnInteraction: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                }
+            })
+
+            var myswiper = new Swiper('.swiper-container2', {
+                // autoplay:{
+
+                // },
+                direction: 'horizontal',
+                loop: false,
+                // autoplay: true,
+                // speed: 3000,
+                slidesPerView: 3.5,
+                // disableOnInteraction: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                }
+            })
+
+        })
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 333 || document.documentElement.scrollTop > 333) {
+                document.getElementById("toTop").style.display = "block";
+            } else {
+                document.getElementById("toTop").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        window.onload = function() {
+            var brandUl = document.getElementById("brandUl");
+            var ali = brandUl.getElementsByTagName("li");
+            for (var i = 0; i < ali.length; i++) {
+                ali[i].index = i;
+                ali[i].onclick = function() {
+                    for (var i = 0; i < ali.length; i++) {
+                        ali[i].className = ""
+                    }
+                    this.className = "cur";
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
